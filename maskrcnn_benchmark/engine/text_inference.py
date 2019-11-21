@@ -48,7 +48,6 @@ import pickle
 # 				)
 # 	return results_dict
 
-
 def compute_on_dataset(model, data_loader, device):
     model.eval()
     results_dict = {}
